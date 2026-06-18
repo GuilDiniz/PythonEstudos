@@ -7,11 +7,11 @@ class Avaliacao:
 
     # Criando Atributo Validável
     @property
-    def nota(self): # getter
+    def nota(self): 
         return self._nota
     
     @nota.setter
-    def nota(self, nota): # Método Getter
+    def nota(self, nota): 
         if 0 <= nota <= 10:
             self._nota = nota
         else:
